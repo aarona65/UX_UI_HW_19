@@ -2,12 +2,24 @@ body {
   margin: 0;
 }
 header {
-  background-color: #373738;
+  background-color: white;
   padding: 15px;
+}
+
+header img{
+  height: 50px;
+  width: 50px;
+}
+.heading{
+  text-decoration: underline;
+}
+
+.uxSkills{
+  color: #17157C;
 }
 header ul {
   float: right;
-  color: white;
+  color:#17157C;
 }
 header li {
   display: inline-block;
@@ -17,27 +29,39 @@ header p {
   display: inline-block;
 }
 .heroImg {
-  background-color: #EBEBEB;
+  background-color: #17157C;
   padding: 100px 15px;
+}
+
+h3, h4{
+  text-decoration: underline;
+}
+
+.heroImg img{
+  height: 188px;
+  width: 188px;
+  border: 1px #17157C;
+  padding: 10px;
 }
 .content {
   max-width: 300px;
   margin: 0 auto;
   padding: 50px;
   background-color: #FFFFFF;
+  color: #17157C;
   text-align: center;
 }
 button {
   padding: 15px;
-  background-color: #373738;
+  background-color: #17157C;
   color: white;
   font-size: 15px;
   border-radius: 4px;
 }
 footer {
-  background-color: #373738;
+  background-color: white;
   padding: 5px;
-  color: white;
+  color: #17157C;
 }
 footer ul {
   list-style: none;
@@ -56,6 +80,7 @@ footer li {
 .flexContainer {
   display: flex;
   padding: 60px 30px;
+  color: #17157C
 }
 .flexContainer div {
   width: 33%;
@@ -66,7 +91,13 @@ footer li {
 .myWork {
   padding: 60px 30px;
   padding-top: 0;
-  background-color: #EBEBEB;
+  background-color: #17157C;
+  color: white;
+}
+
+.myWork button{
+  color: #17157C;
+  background-color: white;
 }
 .workGrid {
   display: grid;
@@ -105,3 +136,17 @@ footer li {
 .content3 {
   grid-area: content3;
 }
+
+a{
+  text-decoration: none;
+  color: #17157C;
+}
+
+/*
+<ul>
+<li class="workNav">Work</li>
+<li class="skillsNav">Skills</li>
+<li class="aboutNav">About Me</li>
+<li class="contactNav">Contact</li>
+</ul>
+*/
