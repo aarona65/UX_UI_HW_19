@@ -142,6 +142,21 @@ a{
   color: #17157C;
 }
 
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+
+  padding: 15px;
+  background-color: #17157C;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+}
+
 /*
 <ul>
 <li class="workNav">Work</li>
